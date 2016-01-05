@@ -198,6 +198,7 @@
 		6054CD071B3ADD23008D2E50 /* AudioKitMan.png in Resources */ = {isa = PBXBuildFile; fileRef = 6054CD061B3ADD23008D2E50 /* AudioKitMan.png */; };
 		F67506701C2F223D003AA6D5 /* Mandolin.png in Resources */ = {isa = PBXBuildFile; fileRef = F675066F1C2F223D003AA6D5 /* Mandolin.png */; settings = {ASSET_TAGS = (); }; };
 		F67506721C2F33AD003AA6D5 /* Mandolin cut.png in Resources */ = {isa = PBXBuildFile; fileRef = F67506711C2F33AD003AA6D5 /* Mandolin cut.png */; settings = {ASSET_TAGS = (); }; };
+		F6E2D8F81C3C2512008DEE1C /* Mandolin V2.3.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E2D8F71C3C2512008DEE1C /* Mandolin V2.3.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -607,6 +608,7 @@
 		6054CD061B3ADD23008D2E50 /* AudioKitMan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioKitMan.png; sourceTree = "<group>"; };
 		F675066F1C2F223D003AA6D5 /* Mandolin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mandolin.png; sourceTree = "<group>"; };
 		F67506711C2F33AD003AA6D5 /* Mandolin cut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mandolin cut.png"; sourceTree = "<group>"; };
+		F6E2D8F71C3C2512008DEE1C /* Mandolin V2.3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mandolin V2.3.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -664,6 +666,7 @@
 		6054CA781B3ACB41008D2E50 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F6E2D8F71C3C2512008DEE1C /* Mandolin V2.3.png */,
 				F675066F1C2F223D003AA6D5 /* Mandolin.png */,
 				F67506711C2F33AD003AA6D5 /* Mandolin cut.png */,
 				6054CD061B3ADD23008D2E50 /* AudioKitMan.png */,
@@ -1575,6 +1578,7 @@
 				6054CA861B3ACB41008D2E50 /* Images.xcassets in Resources */,
 				F67506721C2F33AD003AA6D5 /* Mandolin cut.png in Resources */,
 				F67506701C2F223D003AA6D5 /* Mandolin.png in Resources */,
+				F6E2D8F81C3C2512008DEE1C /* Mandolin V2.3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
