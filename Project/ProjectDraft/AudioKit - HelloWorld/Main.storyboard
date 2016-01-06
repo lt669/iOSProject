@@ -16,6 +16,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Light-Wood-Background-Wallpaper.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7aZ-kT-Lm6">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Regal_Blue_Comet_mandolin_fretboardV3.png" translatesAutoresizingMaskIntoConstraints="NO" id="qZe-Ac-bv4">
+                                <rect key="frame" x="55" y="48" width="990" height="645"/>
+                                <animations/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WuZ-Ga-ggH">
                                 <rect key="frame" x="96" y="38" width="42" height="30"/>
                                 <animations/>
@@ -26,7 +34,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Xp-JD-xHF">
-                                <rect key="frame" x="355" y="279" width="30" height="30"/>
+                                <rect key="frame" x="769" y="226" width="162" height="39"/>
                                 <animations/>
                                 <state key="normal" title="2"/>
                                 <connections>
@@ -35,16 +43,27 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UIh-D7-mBJ">
-                                <rect key="frame" x="691" y="129" width="30" height="30"/>
+                                <rect key="frame" x="931" y="226" width="86" height="38"/>
                                 <animations/>
                                 <state key="normal" title="1"/>
                                 <connections>
-                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="ivo-gq-ySO"/>
-                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDragExit" id="oOg-cI-y65"/>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="v5o-iy-A9H"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mandolin V2.3.png" translatesAutoresizingMaskIntoConstraints="NO" id="CeV-Q4-GQM">
-                                <rect key="frame" x="0.0" y="210" width="1024" height="348"/>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Strings_V2.1.png" translatesAutoresizingMaskIntoConstraints="NO" id="BCG-KW-M0d">
+                                <rect key="frame" x="-77" y="318" width="183" height="53"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Strings_V2.2.png" translatesAutoresizingMaskIntoConstraints="NO" id="sHV-qE-Nmn">
+                                <rect key="frame" x="-33" y="246" width="139" height="42"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Strings_V2.3.png" translatesAutoresizingMaskIntoConstraints="NO" id="f2Y-kt-e2c">
+                                <rect key="frame" x="-100" y="391" width="258" height="48"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Strings_V2.4.png" translatesAutoresizingMaskIntoConstraints="NO" id="20R-vG-e9Z">
+                                <rect key="frame" x="-125" y="464" width="294" height="47"/>
                                 <animations/>
                             </imageView>
                         </subviews>
@@ -62,10 +81,15 @@
                 <swipeGestureRecognizer direction="right" id="36l-B7-GI1"/>
                 <swipeGestureRecognizer direction="right" id="ZrP-lF-6RD"/>
             </objects>
-            <point key="canvasLocation" x="565" y="413"/>
+            <point key="canvasLocation" x="853" y="573"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Mandolin V2.3.png" width="734" height="226"/>
+        <image name="Light-Wood-Background-Wallpaper.jpg" width="2560" height="1600"/>
+        <image name="Regal_Blue_Comet_mandolin_fretboardV3.png" width="5350" height="1800"/>
+        <image name="Strings_V2.1.png" width="2131" height="273"/>
+        <image name="Strings_V2.2.png" width="2119" height="216"/>
+        <image name="Strings_V2.3.png" width="2119" height="237"/>
+        <image name="Strings_V2.4.png" width="2122" height="249"/>
     </resources>
 </document>
